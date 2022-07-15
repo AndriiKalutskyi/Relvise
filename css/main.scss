@@ -550,6 +550,30 @@ body {
 		color: #737373;
 	}
 }
+.clients {
+	&__inner {
+		padding: 50px 0;
+		@media (max-width: 767px) {
+			padding: 25px 0;
+		}
+	}
+
+	&__container {
+	}
+
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__item {
+		flex: 0 1 16.666%;
+		padding: 8px 15px;
+		text-align: center;
+	}
+}
 
 // ----Підвал------------------------------------------------------------
 .footer {

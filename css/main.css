@@ -535,3 +535,23 @@ body {
   letter-spacing: 0.2px;
   color: #737373;
 }
+
+.clients__inner {
+  padding: 50px 0;
+}
+@media (max-width: 767px) {
+  .clients__inner {
+    padding: 25px 0;
+  }
+}
+.clients__items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.clients__item {
+  flex: 0 1 16.666%;
+  padding: 8px 15px;
+  text-align: center;
+}
