@@ -763,6 +763,70 @@ body {
 		color: #fff;
 	}
 }
+.contact {
+	&__inner {
+		padding: 40px 0;
+		background-color: #fff;
+	}
+
+	&__container {
+	}
+
+	&__body {
+		@media (min-width: 767px) {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		padding: 0px 0px 20px 0px;
+		@media (min-width: 767px) {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0px 20px 0px 0px;
+		}
+	}
+
+	&__title {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 133%;
+		letter-spacing: 0.1px;
+		margin: 0px 0px 10px 0px;
+	}
+
+	&__subtitle {
+		font-weight: 500;
+		line-height: 143%;
+		letter-spacing: 0.2px;
+		color: #737373;
+	}
+
+	&__btn {
+		background: #ff7b47;
+		border-radius: 5px;
+		display: flex;
+		min-height: 58px;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding: 15px 40px;
+		font-weight: 700;
+		line-height: 150%;
+		letter-spacing: 0.2px;
+		color: #fff;
+		text-decoration: none;
+		transition: background 0.3s;
+		&:hover {
+			background: #8b4124;
+		}
+	}
+}
 
 // ----Підвал------------------------------------------------------------
 .footer {
